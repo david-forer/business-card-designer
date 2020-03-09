@@ -18,5 +18,30 @@ function changeText() {
 
 function textAlign(selected_id) {
     document.getElementById('card').className = selected_id;
+}
 
+function printName() {
+    document.getElementById('outputName').innerHTML = inputName.value;
+}
+
+function printJobTitle() {
+    document.getElementById('outputJobTitle').innerHTML = inputJobTitle.value;
+}
+
+function printEmail() {
+    document.getElementById('outputEmail').innerHTML = "Email: " + inputEmail.value;
+}
+
+function printTelephone() {
+    document.getElementById('outputTelephone').innerHTML = "Tel: " + inputTelephone.value;
+}
+
+function formSubmit() {
+    if (!inputName.value) {
+        alert("Please complete all required sections");
+    }
+}
+
+function formReset() {
+    window.location.reload();
 }
