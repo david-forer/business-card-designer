@@ -17,13 +17,13 @@
     <div class="row">
           
         <!-- INPUT SECTION -->
-            <div class="col-sm-8" id="content">
+            <div class="col-sm-6 background" id="content">
                 <h1 class="hclass">Business Card Designer</h1>
                 <form id="cardInfo" class="form-horizontal">
                     <div class="form-group">
                         <label for="inputCompany" class="col-sm-3 control-label">Company Name:</label>
                         <div class="col-sm-9">
-                        <input type="text" class="form-control"id="inputCompany" onkeyup="printCompany">
+                        <input type="text" class="form-control"id="inputCompany" onkeyup="printCompany()">
                         </div>   
                     </div>
 
@@ -95,10 +95,10 @@
                 </form>
             </div>
             <!--  OUTPUT SECTION  -->
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <div id="card">
                     <h3 id="outputCompany">Company Name</h3>
-                    <p id="outputMessage" class="small">Company Message</p>
+                    <p id="outputMessage" class="small">Company Message</p><hr>
                     <p id="outputName" class="small">Your Name</p>
                     <p id="outputJobTitle" class="small">Job Title</p>
                     <p id="outputEmail" class="small">Email:</p>
