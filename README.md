@@ -1,3 +1,3 @@
 # business-card-designer
 
-# Simple HTML Website, using Javascript
+## Simple HTML Website, using Javascript
